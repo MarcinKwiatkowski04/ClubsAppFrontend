@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  } 
+  div {    
+    background-color: rgb(3, 164, 212);
+    height: 200px;
+    width: 200px;
+    display: inline-block;    
+    margin-left: 5px;
+    margin-bottom: 5px;
+    top: 100px;  
+  }  
+  p {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, Arial, sans-serif;
+    width: 90%;
+    font-weight: bold;
+    text-transform: uppercase;  
+  }  
+  img {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left: calc(50% - 75px);
+    top: 100px;
+  }
+  .hover:hover{
+    background-color: rgb(165, 164, 164);
+}
+  

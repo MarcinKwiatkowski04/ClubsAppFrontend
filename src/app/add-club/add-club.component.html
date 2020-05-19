@@ -1,0 +1,25 @@
+<label for = "">
+    Name   
+</label>
+<input type="text" name="Name" [(ngModel)]="Name" placeholder="Name: ">
+<label for = "">
+    Country   
+</label>
+<input type="text" name="Country" [(ngModel)]="Country" placeholder="Country: ">
+<select name="ImagePath" [(ngModel)]="ImagePath" placeholder="Image:">
+    <option value = "club1">  
+        club1      
+    </option>
+<option value = "club2">
+    club2
+</option>
+<option value = "club3">
+    club3
+</option>
+<option value = "club4">
+    club4
+</option>
+</select>
+<button (click)=login()>
+    Add club
+</button>

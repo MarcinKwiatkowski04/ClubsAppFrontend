@@ -1,0 +1,19 @@
+table {  
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, Arial, sans-serif;
+    width: 90%;   
+  }  
+  td, th {    
+    height: 30px;       
+  }  
+  th {  
+    background: rgb(236, 183, 183);  
+    font-weight: bold;
+  }
+  img{
+      height: 50px;
+      width: 50px;
+  }
+  .hover:hover{
+    background-color: rgb(165, 164, 164);
+}

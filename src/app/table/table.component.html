@@ -1,0 +1,26 @@
+<div>
+    <table>
+        <tr>
+            <td>
+                Club name:
+            </td>
+            <td>
+                Country:
+            </td>     
+            <td>
+                Image:
+            </td>     
+        </tr>        
+        <tr *ngFor="let club of clubs" >
+            <td>
+                {{club.name}}
+            </td>     
+            <td>
+                {{club.country}}
+            </td>  
+            <td>
+                <img src="{{club.imagePath}}"/>
+            </td>           
+        </tr>
+    </table>
+</div>
