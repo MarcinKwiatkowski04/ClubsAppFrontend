@@ -7,6 +7,7 @@ import { TableComponent } from './table/table.component'
 import { AddClubComponent } from './add-club/add-club.component'
 import { UpdateComponent } from './update/update.component'
 import { DetailsComponent } from './details/details.component'
+import {HeaderComponent} from './header/header.component'
 
 const appRoutes: Routes=[
     { path: '', component:  AppComponent },

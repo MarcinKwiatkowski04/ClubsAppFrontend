@@ -1,3 +1,4 @@
+<br>
 <div>
     <table>
         <tr>
@@ -21,6 +22,11 @@
             <td>
                 <img src="{{club.imagePath}}"/>
             </td>           
+            <th>
+            <button (click)="deleteClub(club.clubId)" class="delete">Delete</button>
+          <button (click)="updateClub(club.clubId)" class="edit" >Edit</button>
         </tr>
     </table>
 </div>
+<br>
+<button (click)="addClub()" class="addClub">Add club</button>

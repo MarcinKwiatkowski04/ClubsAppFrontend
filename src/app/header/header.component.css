@@ -1,0 +1,28 @@
+.tableBtn {
+    position: left;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: orange;
+    cursor: pointer;
+    top: 0px;
+    left: 30%;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .windowBtn {  
+    position: left;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: orangered;
+    cursor: pointer;
+    top: 0px;
+    font-weight: bold;
+  }
+  .tableBtn:hover
+  {background-color: orangered;}
+  .windowBtn:hover
+  {background-color: darkorange;}

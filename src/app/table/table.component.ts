@@ -27,11 +27,11 @@ export class TableComponent implements OnInit {
   }
   addClub()
   {
-    this.router.navigate(['add'])
+    console.log("x")
+    this.router.navigate(['addclub'])
   }
   updateClub(id)
   {
     this.router.navigate(['update',id])
   }
-
 }

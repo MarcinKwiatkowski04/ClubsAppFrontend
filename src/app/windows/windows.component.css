@@ -26,8 +26,52 @@
     position: relative;
     height: 50px;
     width: 50px;
-    left: calc(50% - 75px);
+    left: calc(30%);
     top: 100px;
+  }
+  .addClub {
+    position:center;
+    background-color: rgb(106, 70, 236);
+    color: rgb(233, 224, 224,24);
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    top: 190px;
+    border-radius: 20px;
+    text-align: center;
+    left: calc(50% - 200px);
+    cursor: pointer
+  }
+  .delete {
+    position: relative;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    cursor: pointer;
+    top: 30px;
+    left: 30%;
+    font-weight: bold;
+  }
+  .edit {  
+    position: relative;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: green;
+    cursor: pointer;
+    top: 30px;
+    left: -30%;
+    font-weight: bold;
+    
+  }
+  .edit:hover{
+    background-color: darkgreen;
+  }
+  .delete:hover{
+    background-color: darkred;
   }
   .hover:hover{
     background-color: rgb(165, 164, 164);

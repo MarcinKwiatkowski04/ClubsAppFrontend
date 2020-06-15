@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  position: relative;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  
+  input {
+    font-style: normal;
+    width: 50%;
+    background-color: rgb(240, 234, 234);
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    display: inline-block;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    margin-left: 22%;
+    font-weight: bold;
+  }
+  
+  label,
+  select {
+    width: 50%;
+    background-color: rgb(240, 234, 234);
+    color: black;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    display: inline-block;
+    border-radius: 4px;
+    display: flex;
+    margin-left: 22%;
+  }
+  
+  button {
+  
+    width: 200px;
+    background-color: rgb(194, 191, 191);
+    
+    font-style: normal;
+    color:rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: calc(50% - 130px);
+  }

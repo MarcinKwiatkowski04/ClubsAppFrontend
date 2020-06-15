@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "lab03"
+    }
+  },
+  "defaultProject": "lab03",
+  "cli": {
+    "analytics": false
+  }
 }

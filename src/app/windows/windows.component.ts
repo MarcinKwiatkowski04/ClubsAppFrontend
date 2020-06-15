@@ -28,7 +28,7 @@ export class WindowsComponent implements OnInit {
   }
   addClub()
   {
-    this.router.navigate(['add'])
+    this.router.navigate(['addclub'])
 
   }
   updateClub(id)
